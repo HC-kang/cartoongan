@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from werkzeug.serving import WSGIRequestHandler
-from cartoongan import cartoongan
+from image.cartoongan import cartoongan
 
 app = Flask(__name__)
 
